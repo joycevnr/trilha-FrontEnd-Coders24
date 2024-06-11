@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .about, .projects, .contact {
+            margin-bottom: 40px;
+        }
+        .about h2, .projects h2, .contact h2 {
+            color: #333;
+        }
+        .about p, .contact p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .projects img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #fa50fa;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header><!--cabeçalho-->
+        <nav>
+            <a href="/">
+                <img src="../assets/flor.png" alt="flor" height="50"/>
+            </a>
+            <ul>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Sobre Mim</h2>
+            <p>Olá, eu sou Joyce, uma desenvolvedora web apaixonada por criar soluções inovadoras e eficientes. Tenho experiência em diversas tecnologias e estou sempre buscando aprender mais e melhorar minhas habilidades.</p>
+        </section>
+        
+        <section id="projects" class="projects">
+            <h2>Projetos</h2>
+            <div>
+                <h3>Projeto 1</h3>
+                <img src="../assets/flor.png" alt="Projeto 1">
+                <p>Descrição do projeto 1.</p>
+            </div>
+            <div>
+                <h3>Projeto 2</h3>
+                <img src="../assets/flor.png" alt="Projeto 2">
+                <p>Descrição do projeto 2.</p>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <p>Você pode entrar em contato comigo pelo e-mail: <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 [Joyce]. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
