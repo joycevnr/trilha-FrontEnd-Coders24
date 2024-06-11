@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="2">
+        <thead><!--cabeçaçho-->
+            <tr> <!--linha-->
+                <th>Nome</th>
+                <th>Matrícula</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vitória</td>
+                <td rowspan="2">2024.1</td><!--rowspan para mesclar linha e colspan para coluna-->
+            </tr>
+            <tr>
+                <td>Ana</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form action="" method="get"><!--padrão-->
+        <div>
+            <label for="texto">Nome: </label>
+            <input type="text" id="texto"  name="nome">
+        </div>
+        <div>
+            <label for="texto">Input: </label>
+            <input type="range" id="qualquer" name="range" max="200" min="100">
+        </div>
+        <div>
+            <label for="texto">Ok: </label>
+            <input type="checkbox" id="checkbox" checked>
+        </div>
+        <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+        <div>
+            <label for="texto"></label>
+            <input type="reset" id="reset" value="Limpar">
+        </div>
+        <div>
+            <label for="texto"></label>
+            <input type="submit" id="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
