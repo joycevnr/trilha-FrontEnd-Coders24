@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*se eu colocar um box ele não vai estar mudando as dimensões de um box que eu colocar*/
+}
+
+:root {
+    /*pseudo classe*/
+    font-size: 62.5%;
+}
+
+@media screen and (min-width: 100px) {
+    .img_differences{
+        height: 90vh;
+
+
+    }
+    
+}
+
+.img_differences{
+    height: 80vh;
+
+
+}
+a {
+    color: blueviolet;
+    font-size: 1.8rem;
+}
+
+a:visited {
+    color: brown;
+}
+
+/*passando o mouse - hover deve vim depois do visited*/
+a:hover {
+    color: green;
+}
+
+table {
+    font-size: 2.4rem;
+    border-collapse: collapse;
+}
+
+/*
+table tr:first-child{
+    background-color: steelblue;
+     color:aliceblue
+}*/
+
+table th {
+    background-color: steelblue;
+    color: aliceblue
+}
+
+/*n é como 0*/
+table tr:nth-child(2n + 2) {
+    background-color: rgb(136, 188, 255);
+}
+
+ul,
+ol {
+    padding-left: 2.4rem
+}
+
+ul {
+    list-style: upper-roman;
+
+}
+
+ol {
+    list-style: decimal-leading-zero;
+}
+
+/*display: block: não permite colocar coisas do lado
+object-fit: cover - para não distorcer a img
+o inline não precisa muito a altura e largura*/
+/* se eu digitar h20 por ex., o vscode já completa para mim*/
+
+/*
+margim: para todos os lados
+padding: também pode alterar a dimensão do objeto que estou mexendo, aumentando ou diminuindo ele, pois ele mexe no interior do elemento
+*/
+
+/*
+//POSITION
+absolute: não ocupar espaço em tela
+static - top, left não faz efeito
+fixed: fixo na tela mesmo que eu mova ela
+*/
+
+nav.menu {
+    position: fixed;
+    background-color: rgb(190, 165, 244);
+    width: 100%;
+    height: 5rem;
+    z-index: 1;/*prioridade maior que o relative*/
+}
+main{
+    padding-top: 7rem;
+}
+
+.contact-list {
+    position:relative;
+}
+.contact-list h2{
+    position: sticky;
+    background-color: rgb(152, 58, 214);
+    top: 5rem;
+}
+/*flex
+display: flex;
+flex: 30%;
+flex-wrap: wrap;
+*/
+
+/*Esconder
+display: none;
+visibility: hidden; se tem um button não consigo clicar
+opacity: 4%*/
