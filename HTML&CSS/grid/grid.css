@@ -1,0 +1,30 @@
+:root{
+    font-size: 62.5%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.boxes {
+    justify-content: flex-start;
+    display: grid;
+    height: calc(100vh);
+    position: relative;
+    gap: 2rem 5rem;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 1fr;
+
+}
+
+.box {
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 20rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
