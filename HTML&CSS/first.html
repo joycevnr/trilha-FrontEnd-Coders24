@@ -1,35 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8"> <!--meta: predefinições/ UTF-8 permite ter acentos...-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--viewport onde a tela é renderizada, largura igual a do dispositivo e a escala seja 1.0 - normal-->
-    <title>Principais tags HTML</title> 
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--viewport onde a tela é renderizada, largura igual a do dispositivo e a escala seja 1.0 - normal-->
+    <title>Principais tags HTML</title>
 </head>
+
 <body>
-    <h1>Principais Tags HTML</h1>
-    <img src="../assets/differences.png" alt="differences" width="600" /> <!--alt- descrição alternativa-->
-    <ul>
-        <li>oi</li>
-        <li>oi</li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ol>
-    <p>Lorem ipsum dolor sit <div>amet</div> consectetur adipisicing elit. Minima nemo totam rem consequuntur. Eveniet, placeat omnis. Magnam quisquam fugit expedita facilis, explicabo quas fugiat similique rerum, inventore soluta, omnis rem!</p>
-  
-    <h1>Tags de formatação de texto</h1>
-    <hr>
-    <p>Lorem ipsum, dolor sit <b>amet</b> consectetur adipisicing elit. <code> Dolorem vel inventore </code>iste aperiam, <mark>rerum</mark> magnam <s>quaerat</s> eligendi in reiciendis accusantium at quo odit dolores, consequatur nisi molestiae esse provident <i>modi</i>!</p> <!--com strong os mecanismo de pesquisa também detacam eles - semantica, não só formatação, não é apenas o negrito como o 'b'-->
-    <!--em: itáico  com ênfase-->
-    <pre>console.log("Hello world")</pre>
-    <blockquote>I studied - para citação </blockquote>
-    2<sup>3</sup>
-    H<sub>2</sub>O
+        <nav class="menu">
+            <ul>
+                <li><a href="tabela_form.html">Tabela</a></li>
+                <li><a href="elementos_semanticos.html">Elementos</a></li>
+            </ul>
+        
+        </nav>
+        <main>
+            <section class="contact-list">
+                <h2>A</h2>
+                <ul>
+                    <li>Alice</li>
+                    <li>Alice</li>
+                    <li>Alice</li>
+                    <li>Alice</li>
+                    <li>Alice</li>
+                </ul>
+                <h2>B</h2>
+                <ul>
+                    <li>Bia</li>
+                    <li>Bia</li>
+                    <li>Bia</li>
+                    <li>Bia</li>
+                    <li>Bia</li>
+                </ul>
+                <h2>C</h2>
+                <ul>
+                    <li>Camila</li>
+                    <li>Camila</li>
+                    <li>Camila</li>
+                    <li>Camila</li>
+                    <li>Camila</li>
+                </ul>
+            </section>
+        <h1>Principais Tags HTML</h1>
+        <div class="img_differences">
+            <img src="../assets/differences.png" alt="differences" width="600" /> <!--alt- descrição alternativa-->
+        </div>
+    
+
+        <h1>Lista de tecnologias</h1>
+        <ul>
+            <li>Java</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Py</li>
+            <li>VSCODE</li>
+        </ul>
+
+        <h1>Prioridades</h1>
+        <ol>
+            <li>Learn</li>
+            <li>Learn again</li>
+            <li>Sleep</li>
+            <li>Dreams</li>
+        </ol>
+
+        <h1>Tags de formatação de texto</h1>
+        <hr>
+
+        <p>Lorem ipsum dolor sit
+        <div>amet</div> consectetur adipisicing elit. Minima nemo totam rem consequuntur. Eveniet, placeat omnis. Magnam
+        quisquam fugit expedita facilis, explicabo quas fugiat similique rerum, inventore soluta, omnis rem!</p>
+        <p>Lorem ipsum, dolor sit <b>amet</b> consectetur adipisicing elit. <code> Dolorem vel inventore </code>iste
+            aperiam, <mark>rerum</mark> magnam <s>quaerat</s> eligendi in reiciendis accusantium at quo odit dolores,
+            consequatur nisi molestiae esse provident <i>modi</i>!</p>
+        <!--com strong os mecanismo de pesquisa também detacam eles - semantica, não só formatação, não é apenas o negrito como o 'b'-->
+        <!--em: itáico  com ênfase-->
+        <pre>console.log("Hello world")</pre>
+        <blockquote>I studied - para citação </blockquote>
+        2<sup>3</sup>
+        H<sub>2</sub>O
+        <br>
+
+
+        <a href="elementos_semanticos.html">elementos_semanticos</a>
+
+    </main>
+
 </body>
+
 </html>
