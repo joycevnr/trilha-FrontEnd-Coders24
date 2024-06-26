@@ -1,4 +1,6 @@
 import React from 'react';
+import logoImg from "./assets/images/logoBook.png";
+import './styles/App.css'
 
 class App extends React.Component{
   /*constructor() {
@@ -11,9 +13,16 @@ class App extends React.Component{
         <header>
           <nav id="navbar">
             <div className="nav-brand">
-              <img src="" alt="" />
-              <h1>Space Flight News</h1>
+              <img src={logoImg} alt="" className='logo'/>
+              <h1>Top Bestsellers</h1>
             </div>
+
+            <ul className="nav-list">
+              <li><a href="/">Home</a></li>
+              <li><a href="/">Trending</a></li>
+              <li><a href="/">Categories</a></li>
+              <li><a href="/">About us</a></li>
+            </ul>
           </nav>
         </header>
       </div>
