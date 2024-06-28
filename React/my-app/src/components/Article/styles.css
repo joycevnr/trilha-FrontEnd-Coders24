@@ -1,0 +1,23 @@
+#article{
+    display: flex; /*img fica do lado do texto*/
+    gap: 1rem;
+    padding-bottom: 20px;
+
+}
+
+ h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:rgb(177, 88, 20);
+
+}
+
+img {
+    height: 165px;
+}
+
+h3{
+    color:rgb(160, 100, 10);
+    margin-bottom: 5px;
+}
