@@ -1,6 +1,6 @@
 import React from 'react'
 //na importação do componente vai está entre chaves, mas não posso colocar outro nome como no default
-import AssimQueAcaba from '../../assets/images/AssimQueAcaba.jpg'
+//import AssimQueAcaba from '../../assets/images/AssimQueAcaba.jpg'
 import './styles.css'
 ///cria no  this um obj com todas as propriedades que passei 
 /**
