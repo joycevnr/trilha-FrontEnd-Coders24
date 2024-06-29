@@ -5,6 +5,7 @@ import { Article } from './components/Article/Article';
 import outro from './assets/images/outro.jpg'
 import AssimQueAcaba from './assets/images/AssimQueAcaba.jpg'
 import Principe from './assets/images/Principe.jpg'
+import { Counter } from './components/Counter/Counter';
 
 class App extends React.Component{
   /*constructor() {
@@ -26,6 +27,7 @@ class App extends React.Component{
 
              <Article title="1984" provider="George Orwell" description="Publicada originalmente em 1949, a distopia futurista 1984 é um dos romances mais influentes do século XX, um inquestionável clássico moderno. Lançada poucos meses antes da morte do autor, é uma obra magistral que ainda se impõe como uma poderosa reflexão ficcional sobre a essência nefasta de qualquer forma de poder totalitário." thumbnall={outro}/>
           </section>
+          <Counter/>
         </main>
       </>
     );
