@@ -2,12 +2,17 @@ import React from "react";
 
 export class Counter extends React.Component {
   constructor() {
+    console.log("Construindo a classe Counter!");
     super();
     // this.contador = 10;
     this.state = { contador: 0, name: "" };
   }
+  componentDidMount(){
+    console.log("O componente foi montado!");
+  }
 
   render() {
+    console.log("Renderizando o componente counter...");
     return (
       <div style={{ marginTop: "20px", marginLeft: "20px" }}>
         <h1>{this.state.contador}</h1>
